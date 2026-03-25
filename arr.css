@@ -108,15 +108,17 @@ ul{
 }
 .boxes .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: rgb(84, 3, 42);
     flex-wrap: wrap;
     gap 20px;
+    padding: 20px 0;
     
 }
 
 .box{
-    flex: 1;
+    flex: 0 1 calc(33.333% - 40px);
+    min-width: 250px;
     background: rgb(254, 254, 254);
     color: rgb(84, 3, 42);
     border-radius: 20px;
