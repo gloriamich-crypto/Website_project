@@ -33,6 +33,13 @@ h2{
     padding: 0 30px;
 }
 
+.imagesect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 ul{
     list-style-type: none;
 }
@@ -99,23 +106,55 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
-
 .boxes .container{
     display: flex;
     justify-content: space-between;
+    color: rgb(84, 3, 42);
 }
 
 .box{
     flex: 1;
     background: rgb(254, 254, 254);
     color: rgb(84, 3, 42);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgb(196, 11, 101)(0, 0, 0, 0.6);
     padding: 15px 20px;
-
+    flex-wrap: wrap;
 }
 
+.box{
+    border: 2px solid rgb(196, 11, 101);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.item{
+    position: relative;
+    list-style: none;
+}
+
+.dropdown{
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(196, 11, 101);
+    padding: 10px;
+    min-width: 150px;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.item:hover .dropdown{
+    display: flex !important;
+    margin: 5px 0;
+
+}
 @meadia(max-width: 700px){
     
 }
