@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1{
+    font-family: "Figtree";
+    margin-bottom: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Figtree"; 
+    font-size: 16px;
+    line-height: 1.5;
+    color:rgb(84, 3, 42);
+    background-color: rgb(254, 254, 254);
+}
+h2{
+    margin-bottom: 15px;
+}
+
+.img{
+    max-width: 100%;
+    
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+ 
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar{
+    background: rgb(196, 11, 101);
+    color:rgb(254, 254, 254);
+    height: 60px;
+
+}
+
+.navbar a:hover{
+    color: rgb(239, 131, 176);
+}
+
+.navbar a{
+    color:rgb(254, 254, 254);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+} 
+
+.navbar ul li{
+    margin-left: 20px;
+
+}
+
+.header{
+    background-color: rgb(254, 254, 254);
+    color: rgb(84, 3, 42)
+    min-height: 400px; 
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 400px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    flex: 1;
+    background: rgb(254, 254, 254);
+    color: rgb(84, 3, 42);
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgb(196, 11, 101)(0, 0, 0, 0.6);
+    padding: 15px 20px;
+
+}
+
+@meadia(max-width: 700px){
+    
+}
+ 
+
