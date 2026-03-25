@@ -3,8 +3,13 @@
 h1{
     font-family: "Figtree";
     margin-bottom: 15px;
+    text-align: center;
 }
-
+.containerh1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 * {
     box-sizing: border-box;
     margin: 0;
